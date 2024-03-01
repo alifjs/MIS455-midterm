@@ -244,3 +244,14 @@ h2 {
 .faq-item p {
     color: #555;
 }
+
+/* customer feedback */
+.flex-container {
+    max-width:100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px
+}
+.flex-container div {
+    flex-basis: 30%;
+}
