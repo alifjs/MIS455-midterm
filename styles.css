@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-section {
+    background-image: url('images/background-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height:30vh;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e54d37; /* Slightly darker shade on hover */
+}
+
+.paragraph {
+    background-color: rgb(255, 254, 254);
+    color: black;
+    text-align: left;
+    padding:0 50px 0 50px;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.3em;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+}
+.flex-container p{
+    width: 700px;
+    padding:0 50px 0 50px;
+}
+.flex-container img{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+}
+/* //////////////////////////////////////// */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px; 
+    margin-right: 10px; 
+}
